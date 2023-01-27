@@ -16,4 +16,4 @@ jobs:
 
       - name: Build project
         run: |
-          nix-build
+          nix-build --show-trace
