@@ -16,7 +16,4 @@ jobs:
 
     - name: Build project
       run: |
-        mkdir build
-        cd build
-        cmake ..
-        make
+        nix-build
