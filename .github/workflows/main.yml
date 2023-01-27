@@ -14,10 +14,9 @@ jobs:
         with:
           nix_path: nixpkgs=channel:nixos-22.05
 
-    -name: Build using Nix
+    - name: Build project
       run: |
         mkdir build
         cd build
         cmake ..
         make
-          
