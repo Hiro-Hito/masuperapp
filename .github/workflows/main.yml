@@ -16,5 +16,4 @@ jobs:
 
       - name: Build project
         run: |
-          nix-shell
           nix-build
